@@ -1,0 +1,44 @@
+* {
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    margin-top: auto;
+    position: relative;
+}
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 0px;
+    position: relative;
+}
+.text-white{
+    color: white;
+}
+.bg-dark-1{
+    background: black;
+}
+.menu-list{
+    position: relative;
+    font-size: 25px;
+}
+.menu-list li{
+    margin: 1em;
+    padding-left: 1em;
+    list-style: none;
+}
+.menu-controller{
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    background: lightslategray;
+    border-radius: 5%;
+}
+.menu-controller .line{
+    width: 30px;
+    height: 3px;
+    background: white;
+    margin: 5px;
+}
