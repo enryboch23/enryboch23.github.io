@@ -31,9 +31,8 @@ nav{
 }
 .menu-controller{
     position: absolute;
-    /* top: 2%;
-    right: 5%; */
-    float: right;
+    top: 2%;
+    right: 3%;
     background: lightslategray;
     border-radius: 5%;
 }
